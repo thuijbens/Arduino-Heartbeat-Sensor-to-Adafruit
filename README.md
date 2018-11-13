@@ -88,8 +88,8 @@ this installation needs two seperate Arduino files, the main file and the Conig.
 
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-#define IO_USERNAME    "ApexPredatorTH"
-#define IO_KEY         "cc91718bd396437d98addb9fef8945f1"
+#define IO_USERNAME    "USERNAME"
+#define IO_KEY         "xxxxxxxxxxxxxxxxxxxxxxx"
 
 /******************************* WIFI **************************************/
 
@@ -100,10 +100,11 @@ this installation needs two seperate Arduino files, the main file and the Conig.
 //   - Feather M0 WiFi -> https://www.adafruit.com/products/3010
 //   - Feather WICED -> https://www.adafruit.com/products/3056
 
-#define WIFI_SSID       "IOT"
-#define WIFI_PASS       "!HVAIOT!"
-#define WLAN_SSID       "IOT"
-#define WLAN_PASS       "!HVAIOT!"
+#define WIFI_SSID       "*WIFI NAME*"
+#define WIFI_PASS       "*WIFI PASS*"
+// or
+#define WLAN_SSID       "*WLAN NAME*"
+#define WLAN_PASS       "*WLAN PASS*"
 #define WLAN_SECURITY   WLAN_SEC_WPA2
 
 // comment out the following two lines if you are using fona or ethernet
