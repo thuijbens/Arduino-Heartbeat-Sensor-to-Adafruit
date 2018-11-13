@@ -81,7 +81,7 @@ rate=0;
 mqttclient.loop();
 }
 ```
-*Config.h
+###Config.h
 this installation needs two seperate Arduino files, the main file and the Conig.h file. This file makes sure Arduino has a working connection to the internet and thus the Adafruit feeds. You just need to replace the IO-Username with your Adafruit username and the IO-Key with the AIO-Key you can recieve on your Adafruit page. You might also need to change the SSID and PASS's of your internet connecting, depending on what type of connection you want to use, wifi or wlan. Here you can see the complete config.h file:
 ```
 /************************ Adafruit IO Config *******************************/
