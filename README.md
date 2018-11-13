@@ -1,7 +1,7 @@
 # Arduino-Heartbeat-Sensor-to-Adafruit
 How to use a heartbeat sensor and log the data to Adafruit using Arduino?
 ### About
-This tutorial explains how one can use a heartbeat sensor with Arduino and how this data is send to an Adafruit feed, abling you to connect it to even more devices like a mobile phone. We created this in order to track the heartbeat of a cat and log that data to a mobile phone. Since this is a prototype, we decided to connect in to Adafruit instead, abling me to test the code without needing any additional codes.
+This tutorial explains how one can use a heartbeat sensor with Arduino and how this data is send to an Adafruit feed, abling you to connect it to even more devices like a mobile phone. We created this in order to track the heartbeat of a cat and log that data to a mobile phone. Since this is a prototype, we decided to connect in to Adafruit instead, abling me to test the code without needing any additional Arduino sketches.
 ### First things first
 Before we begin you'll need a few things to make this installation work properly.
 * An Arduino Device
