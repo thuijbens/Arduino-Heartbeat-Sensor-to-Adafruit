@@ -35,6 +35,10 @@ int i=0,k=0,rate=0;
 unsigned long time2,time1;
 unsigned long time;
 ```
+We also need to define the Heart Sensor as an input sensor. Change D5 with the input pin of your sensor.
+```
+ pinMode(D5, INPUT);
+```
 Now we arrive at the Void_Setup, in which we only name one variable, variable t equals the variable rate
 ```
 void setup() {
